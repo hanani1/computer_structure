@@ -178,7 +178,7 @@ void copyFiles(char* source, char* destination,
 		if(fwrite(buffer, sizeof(buffer), sizeof(char), dest) < check)
 		{
 			//error
-			return;                                           // or other action
+			return;
 	    }
 	}
 	fclose(src);
@@ -186,7 +186,7 @@ void copyFiles(char* source, char* destination,
 }
 
 /*
- * coppies one file to another, regardless of os
+ * coppies one file to another, regardless of os type
  */
 void copyFilesSimple(char* source, char* destination)
 {
@@ -211,6 +211,9 @@ void copyFilesSimple(char* source, char* destination)
 	fclose(dest);
 }
 
+/*
+ * the main function that runs the software
+ */
 int main(int argc, char* argv[])
 {
 	switch(argc)
