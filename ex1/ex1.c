@@ -2,7 +2,8 @@
  * Ex1.c
  *
  *  Created on: Nov 14, 2017
- *      Author: hanani
+ *      Author: hanani corney
+ *      id: 203990924
  */
 
 #include <stdio.h>

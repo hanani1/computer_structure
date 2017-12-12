@@ -2,7 +2,8 @@
  * ex2.c
  *
  *  Created on: Nov 19, 2017
- *      Author: hanani
+ *      Author: hanani corney
+ *      id: 203990924
  */
 #include<stdio.h>
 #include<string.h>
@@ -204,7 +205,7 @@ void copyFilesSimple(char* source, char* destination)
 		if(fwrite(buffer, 2, 1, dest) != check)
 		{
 			//error
-			return;                                           // or other action
+			return;
 	    }
 	}
 	fclose(src);
